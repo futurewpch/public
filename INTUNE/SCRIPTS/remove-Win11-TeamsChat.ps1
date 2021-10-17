@@ -1,0 +1,2 @@
+Remove-AppxPAckage "MicrosoftTeams_21253.510.996.1465_x64_8wekyb3d8bbwe"
+New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "TaskbarMn" -Value "0" -PropertyType DWORD -Force
